@@ -37,24 +37,24 @@
             this.comboBoxPuerto = new System.Windows.Forms.ComboBox();
             this.buttonDesconectar = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.panelTitulo = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelTitulo = new System.Windows.Forms.Panel();
             this.labelTitulo = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.trackBarHorizontal = new System.Windows.Forms.TrackBar();
             this.labelValorhorizontal = new System.Windows.Forms.Label();
-            this.trackBarVertical = new System.Windows.Forms.TrackBar();
             this.labelValorvertical = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.trackBarVertical = new System.Windows.Forms.TrackBar();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
-            this.panelTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarHorizontal)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBarVertical)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarVertical)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -154,25 +154,6 @@
             this.panelLogo.Size = new System.Drawing.Size(220, 140);
             this.panelLogo.TabIndex = 0;
             // 
-            // panelTitulo
-            // 
-            this.panelTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
-            this.panelTitulo.Controls.Add(this.labelTitulo);
-            this.panelTitulo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitulo.Location = new System.Drawing.Point(220, 0);
-            this.panelTitulo.Name = "panelTitulo";
-            this.panelTitulo.Size = new System.Drawing.Size(580, 70);
-            this.panelTitulo.TabIndex = 1;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(220, 70);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(580, 10);
-            this.panel1.TabIndex = 2;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -182,6 +163,16 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // panelTitulo
+            // 
+            this.panelTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
+            this.panelTitulo.Controls.Add(this.labelTitulo);
+            this.panelTitulo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTitulo.Location = new System.Drawing.Point(220, 0);
+            this.panelTitulo.Name = "panelTitulo";
+            this.panelTitulo.Size = new System.Drawing.Size(580, 70);
+            this.panelTitulo.TabIndex = 1;
             // 
             // labelTitulo
             // 
@@ -193,6 +184,15 @@
             this.labelTitulo.Size = new System.Drawing.Size(263, 41);
             this.labelTitulo.TabIndex = 0;
             this.labelTitulo.Text = "PANEL DE CONTROL";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(220, 70);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(580, 10);
+            this.panel1.TabIndex = 2;
             // 
             // button1
             // 
@@ -246,17 +246,6 @@
             this.labelValorhorizontal.Text = "Valor: 0";
             this.labelValorhorizontal.Click += new System.EventHandler(this.labelValorhorizontal_Click);
             // 
-            // trackBarVertical
-            // 
-            this.trackBarVertical.Location = new System.Drawing.Point(494, 18);
-            this.trackBarVertical.Maximum = 100;
-            this.trackBarVertical.Name = "trackBarVertical";
-            this.trackBarVertical.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBarVertical.Size = new System.Drawing.Size(45, 313);
-            this.trackBarVertical.TabIndex = 2;
-            this.trackBarVertical.TickFrequency = 10;
-            this.trackBarVertical.Scroll += new System.EventHandler(this.trackBarVertical_Scroll);
-            // 
             // labelValorvertical
             // 
             this.labelValorvertical.AutoSize = true;
@@ -283,6 +272,17 @@
             this.panel2.Size = new System.Drawing.Size(580, 370);
             this.panel2.TabIndex = 3;
             // 
+            // trackBarVertical
+            // 
+            this.trackBarVertical.Location = new System.Drawing.Point(494, 18);
+            this.trackBarVertical.Maximum = 100;
+            this.trackBarVertical.Name = "trackBarVertical";
+            this.trackBarVertical.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.trackBarVertical.Size = new System.Drawing.Size(45, 313);
+            this.trackBarVertical.TabIndex = 2;
+            this.trackBarVertical.TickFrequency = 10;
+            this.trackBarVertical.Scroll += new System.EventHandler(this.trackBarVertical_Scroll);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -301,13 +301,13 @@
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.panelLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTitulo.ResumeLayout(false);
             this.panelTitulo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarHorizontal)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBarVertical)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarVertical)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -330,9 +330,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TrackBar trackBarHorizontal;
         private System.Windows.Forms.Label labelValorhorizontal;
-        private System.Windows.Forms.TrackBar trackBarVertical;
         private System.Windows.Forms.Label labelValorvertical;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TrackBar trackBarVertical;
     }
 }
 
