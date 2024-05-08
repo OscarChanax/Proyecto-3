@@ -26,7 +26,7 @@ void loop()
   {
    int Dato = Serial.read();                                                           //Lectura del dato en comunicacion Serial 
   
-   analogWrite(led,Dato); // Establece el brillo del LED
+   //analogWrite(led,Dato); // Establece el brillo del LED
 
    if (Dato == 'E')
     {
