@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using mamth
+//using mamth
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -162,7 +162,7 @@ namespace Proyecto_3
 
         private void buttonCalcular_Click(object sender, EventArgs e)
         {
-            int q2 = Math.Cosh *
+           
         }
     }
 }
